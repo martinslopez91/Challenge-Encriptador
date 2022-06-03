@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="encrip.css">
+</head>
+<body>
+    <div class="div-principal">
+        <div class="div-titulo">
+            <img src="vectores/Vector.png" alt="Encriptador realizado por Sergio Martin Lopez" id="logo-principal">        
+        </div>   
+        <div class="flotante">
+            <div class="texto-ingresado">
+                <textarea id="textarea" cols="30" rows="1" name="Ingrese el texto aqui" placeholder="Enter the text here." ></textarea>
+                <h5 id="regla-escribir">°Enter text only in lowercase and without accents.</h2>   
+            </div>
+            <div class="resultado-texto">
+                <nav class="resultado" style="display:none"> </nav> 
+                </div>              
+            <div class="figuras">
+                 <figure id="muñeco">
+                    <img src="vectores/Muñeco.png" id="img-muñeco">
+                    <img src="vectores/Ningun-mensaje.png" id="ningun-msj">
+                </figure>               
+            </div>          
+        </div>    
+        
+        <div class="botones-principales">
+            <button id="encriptar">ENCRYPT</button>
+            <button id="desencriptar">DECRYPT</button>
+            <button id="copiar">COPY</button>
+           <div class="botones-redes">
+            <form action="https://github.com/martinslopez91" id="form-git">
+                <button id="btn-git">
+                    <img src="imagenes/github.png" id="git">
+                </button>  
+            </form>
+            <form action="https://www.linkedin.com/in/sergiolopez-ssis/" id="form-link">
+                <button id="btn-link">
+                    <img src="imagenes/linkedin.png" id="link">
+                </button>
+            </form>
+
+            
+            </div> 
+            <div class="present">
+                <h4 id=" presentacion">@Challenge ORACLE-ONE create by Sergio Martin Lopez.</h4>
+               
+            </div>
+
+        </div>   
+    </div>
+        
+       
+    <script src="encriptador.js"></script>
+    <script src="boton-copiar.js"></script>
+   
+   
+   
+</body>
+</html>
